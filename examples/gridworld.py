@@ -62,10 +62,6 @@ def gridworld(ex, key):
     
     elapsed = time.time() - t
     
-    # Plot augmenting paths:
-    Paug = all_augment_paths(G, props[0:2])
-    fig_aug, ax_aug = plot_augment_paths(Paug, G, M, N, props, Q0, [])
-    
     if alg_fail_main==False:
         print(C)
         postC = post_process_cuts(C, G)
