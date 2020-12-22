@@ -17,3 +17,6 @@ pip install matplotlib
 pip install scipy
 pip install pickle
 ```
+## Instructions
+
+To re-create the figures, navigate to the examples folder and run the scripts: simple_automaton.py, gridworld.py, and parametered_grid.py for the simple automaton example, the gridworld example, and the instances for the random gridworlds.
