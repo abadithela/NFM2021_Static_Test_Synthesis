@@ -13,7 +13,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.pyplot import cm
 from networkx.algorithms.flow import shortest_augmenting_path, edmonds_karp
-from restrict_transitions_complex import all_augment_paths, construct_graph, remove_edges, to_directed, post_process_cuts, process_history
 from grid_functions import construct_grid, plot_static_map, base_grid, plot_final_map, plot_augment_paths
 from simulation_helpers import run_iterations, run_iterations_SAPs, run_iterations_random_graph
 from time import gmtime, strftime
