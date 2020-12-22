@@ -13,7 +13,6 @@ Created on Tue Nov 24 16:04:21 2020
 
 import numpy as np
 import time
-import ipdb
 import random
 from src.grid_functions import construct_grid
 import networkx as nx

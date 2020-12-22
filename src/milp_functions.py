@@ -12,7 +12,6 @@ Created on Fri Oct 23 16:28:18 2020
 import numpy as np
 import time
 import itertools
-import ipdb
 import random
 from src.grid_functions import construct_grid
 import networkx as nx
