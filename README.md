@@ -1,6 +1,6 @@
 # NFM2021_Static_Test_Synthesis
 
-This repository contains the code required to reproduce the figures for "Synthesizing Static Test Environments for Observing Sequence-like Behaviors in Autonomy".
+This repository contains the code required to reproduce the figures for "Synthesis of Static Test Environments for Observing Sequence-like Behaviors in Autonomous Systems".
 <p align="center">
 <img src="https://github.com/abadithela/NFM2021_Static_Test_Synthesis/blob/main/examples/movie_ex2.gif" width="500" />
 </p>
