@@ -20,4 +20,4 @@ pip install scipy
 The code also requires Gurobi for Python to run successfully. Instructions for installation can be found [here](https://www.gurobi.com/academia/academic-program-and-licenses/). This code was implemented in Anaconda on a MacOS Catalina. Instructions for installing setting up Gurobi for Anaconda can be found [here](https://www.gurobi.com/gurobi-and-anaconda-for-mac/).
 ## Instructions
 
-To re-create the figures, navigate to the examples folder and run the scripts: simple_automaton.py, gridworld.py, and parametered_grid.py for the simple automaton example, the gridworld example, and the average runtime for random gridworlds.
+To re-create the figures, navigate to the examples folder and run the scripts: simple_automaton.py, gridworld.py, and parametered_grid.py for the simple automaton example, the gridworld example, and the average runtime for random gridworlds, respectively.
