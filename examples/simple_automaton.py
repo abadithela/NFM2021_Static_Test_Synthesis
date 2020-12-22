@@ -7,9 +7,12 @@ Created on Wed Oct 14 11:51:09 2020
 """
 import networkx as nx
 from networkx.algorithms.flow import shortest_augmenting_path, edmonds_karp
-from milp_functions import augment_paths, min_cut_edges
-from restrict_transitions_cycles import remove_edges_corrected_cycle, remove_edges
-from simulation_helpers import post_process_cuts, process_history
+import sys
+sys.path.append('../')
+
+from src.milp_functions import augment_paths, min_cut_edges
+from src.restrict_transitions_cycles import remove_edges_corrected_cycle, remove_edges
+from src.simulation_helpers import post_process_cuts, process_history
 
 # Constructing graph induced by automaton:
 G = nx.DiGraph()
@@ -41,3 +44,6 @@ print("List of constrained edges: ")
 print(C)
 print("List of constrained edges in each iteration: ")
 print(Chist)
+
+
+
