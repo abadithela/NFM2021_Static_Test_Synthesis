@@ -15,14 +15,14 @@ import numpy as np
 import time
 import ipdb
 import random
-from grid_functions import construct_grid
+from src.grid_functions import construct_grid
 import networkx as nx
 import gurobipy as gp
 import scipy.sparse as sp
 from gurobipy import GRB
 from networkx.algorithms.flow import shortest_augmenting_path, edmonds_karp
 from networkx.algorithms.traversal.breadth_first_search import bfs_edges
-from aug_path import get_augmenting_path
+from src.aug_path import get_augmenting_path
 from networkx.algorithms.flow.utils import build_residual_network
 from networkx.algorithms.shortest_paths import all_shortest_paths
 # from networkx.algorithms.simple_paths import all_simple_paths

@@ -13,20 +13,20 @@ import numpy as np
 import time
 import ipdb
 import random
-from grid_functions import construct_grid
+from src.grid_functions import construct_grid
 import networkx as nx
 import gurobipy as gp
 import scipy.sparse as sp
 from gurobipy import GRB
 from networkx.algorithms.flow import shortest_augmenting_path, edmonds_karp
 from networkx.algorithms.traversal.breadth_first_search import bfs_edges
-from aug_path import get_augmenting_path
+from src.aug_path import get_augmenting_path
 from networkx.generators.random_graphs import fast_gnp_random_graph, gnm_random_graph
 from networkx.algorithms.flow.utils import build_residual_network
-from milp_functions import cut_aug_paths, milp, keep_aug_paths, construct_milp_params, find_nkeep, augment_paths, sdistance, construct_c
-from restrict_transitions_cycles import remove_edges_corrected_cycle, remove_edges
-from preprocess_constraints_SAP import SAP_sets
-from milp_functions import get_SAP_constraints
+from src.milp_functions import cut_aug_paths, milp, keep_aug_paths, construct_milp_params, find_nkeep, augment_paths, sdistance, construct_c
+from src.restrict_transitions_cycles import remove_edges_corrected_cycle, remove_edges
+from src.preprocess_constraints_SAP import SAP_sets
+from src.milp_functions import get_SAP_constraints
 
 # Functions for running repeated experiments on gridworlds:
 # Running 10 iterations for every experiment configuration:

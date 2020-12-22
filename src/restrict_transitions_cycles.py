@@ -16,16 +16,16 @@ import numpy as np
 import time
 import ipdb
 import random
-from grid_functions import construct_grid
+from src.grid_functions import construct_grid
 import networkx as nx
 import gurobipy as gp
 import scipy.sparse as sp
 from gurobipy import GRB
 from networkx.algorithms.flow import shortest_augmenting_path, edmonds_karp
 from networkx.algorithms.traversal.breadth_first_search import bfs_edges
-from aug_path import get_augmenting_path
+from src.aug_path import get_augmenting_path
 from networkx.algorithms.flow.utils import build_residual_network
-from milp_functions import find_SAP_k, find_aug_paths, get_SAP_constraints, get_all_SAPs, keep_aug_paths_corrected, cut_aug_paths_corrected, cut_aug_paths_eff, cut_aug_paths, milp_cycles, keep_aug_paths, construct_milp_params, find_nkeep, augment_paths, sdistance, construct_c
+from src.milp_functions import find_SAP_k, find_aug_paths, get_SAP_constraints, get_all_SAPs, keep_aug_paths_corrected, cut_aug_paths_corrected, cut_aug_paths_eff, cut_aug_paths, milp_cycles, keep_aug_paths, construct_milp_params, find_nkeep, augment_paths, sdistance, construct_c
 
 
 # Main functions for remove_edges:
